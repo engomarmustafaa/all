@@ -1,0 +1,12 @@
+/cache.appcache
+  Content-Type: text/cache-manifest; charset=utf-8
+  Cache-Control: no-cache
+
+/*.html
+  Cache-Control: no-cache
+
+/*.js
+  Cache-Control: public, max-age=31536000
+
+/*.bin
+  Cache-Control: public, max-age=31536000
